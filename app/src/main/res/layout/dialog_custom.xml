@@ -9,7 +9,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textUser"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:hint="Enter name"
+        android:textSize="16sp"
+        android:gravity="fill_vertical|center_horizontal" />
 
     <TextView
         android:id="@+id/textUser"
@@ -18,7 +21,8 @@
         android:text="USERNAME"
         android:layout_marginTop="107dp"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/textPassword" />
+        android:layout_alignStart="@+id/textPassword"
+        android:textColor="@color/primary_dark_material_dark" />
 
     <EditText
         android:id="@+id/password"
@@ -26,9 +30,14 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="password"
         android:layout_below="@+id/textPassword"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+
+
+        android:password="true"
+        android:hint="password"
+        android:gravity="center_horizontal" />
 
     <TextView
         android:id="@+id/textPassword"
@@ -38,7 +47,8 @@
         android:textSize="15dp"
         android:layout_marginTop="57dp"
         android:layout_below="@+id/textUser"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="#0f0e0e" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
